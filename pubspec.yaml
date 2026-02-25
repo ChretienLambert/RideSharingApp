@@ -1,0 +1,60 @@
+name: ride_sharing_app
+description: A comprehensive ride-sharing mobile app for Cameroon
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # State Management
+  provider: ^6.1.1
+
+  # Navigation
+  go_router: ^17.1.0
+
+  # UI Components
+  cupertino_icons: ^1.0.6
+  flutter_svg: ^2.0.9
+  cached_network_image: ^3.3.0
+  shimmer: ^3.0.0
+
+  # Maps & Location
+  google_maps_flutter: ^2.5.0
+  geolocator: ^14.0.2
+  geocoding: ^4.0.0
+
+  # Firebase
+  firebase_core: ^4.4.0
+  firebase_auth: ^6.1.4
+  firebase_crashlytics: ^5.0.7
+  phone_otp_verification: ^1.0.3
+
+  # Utilities
+  intl: ^0.20.2
+  shared_preferences: ^2.2.2
+
+  # HTTP & API
+  http: ^1.1.2
+  dio: ^5.4.0
+
+  # Animations
+  lottie: ^3.3.2
+  animations: ^2.0.11
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/animations/
+    - assets/icons/
